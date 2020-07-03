@@ -105,6 +105,10 @@
               "**/node_modules/**"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     },
@@ -137,5 +141,8 @@
       }
     }
   },
-  "defaultProject": "trello-clone-angular"
+  "defaultProject": "trello-clone-angular",
+  "cli": {
+    "analytics": false
+  }
 }
